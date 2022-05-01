@@ -14,7 +14,7 @@ from downcast import downcast
 pd.set_option('display.max_columns', None)
 
 
-df = pd.read_csv('data\train.csv')
+df = pd.read_csv('data/train.csv')
 df = downcast(df)
 
 '''1. Impute the missing values'''
@@ -38,5 +38,5 @@ df_X_osus['Amount'] = transform_amount
 df_train_X, df_test_X, df_train_Y, df_test_Y = train_test_split(df_X_osus, df_Y_osus, test_size = 0.4)
 xgboost_classifier = xgb.XGBClassifier(learning_rate= 0.4, max_depth = 4, min_child_weight = 2, n_estimators =  500, gamma = 0.05)
 xgboost_classifier.fit(df_train_X, df_train_Y)
-with open('models\model.pkl', 'wb')as f:
+with open('models/model.pkl', 'wb')as f:
   pickle.dump(xgboost_classifier, f)
