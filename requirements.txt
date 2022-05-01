@@ -16,7 +16,7 @@ cffi==1.14.5
 chardet==4.0.0
 charset-normalizer==2.0.12
 cli-helpers==2.2.1
-click==7.1.2
+click==8.1.3
 colorama==0.4.4
 colorclass==2.2.2
 colorlog==6.6.0
@@ -32,6 +32,7 @@ entrypoints==0.4
 execnet==1.9.0
 faust==1.10.4
 filelock==3.6.0
+Flask==2.1.2
 frozenlist==1.3.0
 google-api-core==1.30.0
 google-api-python-client==2.11.0
@@ -56,6 +57,7 @@ ipykernel==5.5.3
 ipython==7.22.0
 ipython-genutils==0.2.0
 ipywidgets==7.6.5
+itsdangerous==2.1.2
 jedi==0.18.0
 Jinja2==3.0.3
 joblib==1.1.0
@@ -164,7 +166,9 @@ virtualenv==20.14.1
 visions==0.4.4
 wcwidth==0.2.5
 webencodings==0.5.1
+Werkzeug==2.1.2
 widgetsnbextension==3.5.2
+xgboost==1.6.0
 yarl==1.7.2
 yfinance==0.1.70
 zipp==3.7.0

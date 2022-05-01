@@ -1,6 +1,4 @@
-from flask import Flask, request, jsonify
-import pickle
-import json
+from flask import Flask, request
 import numpy as np
 import xgboost as xgb
 
