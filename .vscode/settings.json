@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./cc_fraud/Lib/site-packages"
+    ]
+}
