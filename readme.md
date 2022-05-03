@@ -11,3 +11,4 @@ In this stage, we picked the best performance model and deploy into API with Fla
 Lastly, we hosted the API on Heroku (PaaS). You may try this [API] (https://creditcard-frauddetection-api.herokuapp.com) 
 with the input parameter & POST method. <br>
 Below GIF is the demo about how to run the API for the predictive modeling.
+![API_DEMO](https://github.com/hoe94/CreditCard_FraudDetection_API/blob/main/API_demo_gif.gif)
